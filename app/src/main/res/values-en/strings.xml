@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">My ApplicationCaculadoraNotas</string>
+    <string name="textView2">Average Calculator (7 MATERIALS)</string>button6
+    <string name="button6">Start</string>
+    <string name="button4">About</string>
+    <string name="textView8">Calculate Your Average</string>
+    <string name="textView10">Note 1</string>
+    <string name="textView11">Note 2</string>
+    <string name="textView1255">Note 3</string>
+    <string name="textView20">Result</string>
+    <string name="btnPromedioTotal">Total Average</string>
+    <string name="button2">Save Notes</string>
+    <string name="button">Informat</string>
+    <string name="Materia1">Name Subject 1</string>
+    <string name="Materia2">Name Subject 2</string>
+    <string name="Materia3">Name Subject 3</string>
+    <string name="Materia4">Name Subject 4</string>
+    <string name="Materia5">Name Subject 5</string>
+    <string name="Materia6">Name Subject 6</string>
+    <string name="Materia7">Name Subject 7</string>
+
+    <string name="textView4">Your Performance is Rated as</string>
+    <string name="textView6">If your note is</string>
+    <string name="textView7">Less than 1 = Poor Performance</string>
+    <string name="textView9">May to 1 and Less than 2 = Insufficient Performance</string>
+    <string name="textView13">Greater than 2 and less than 3 = Low Performance</string>
+    <string name="textView14">Greater than 3 and Less than 3.5 = Good Performance</string>
+    <string name="textView15">Greater than 3.5 and less than 4.5 = Very Good Performance</string>
+    <string name="textView22">Greater than 4.5 and less than 5.0 = Excellent Performance</string>
+    <string name="M">The important thing is not what you know, but how fast you learn</string>
+
+
+
+
+
+
+
+</resources>

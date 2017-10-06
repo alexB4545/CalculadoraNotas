@@ -1,0 +1,834 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example1.lenovo.myapplicationcaculadoranotas.Main3Activity"
+    android:background="@drawable/fondomatrix"
+    >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/scrollView3"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_below="@+id/scrollView3"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/scrollView3"
+            android:layout_centerHorizontal="true"
+            android:fontFamily="cursive"
+            android:text="@string/textView8"
+            android:textAlignment="viewStart"
+            android:textAllCaps="true"
+            android:textColor="@android:color/background_light"
+            android:textSize="30sp"
+            android:textStyle="bold|italic" />
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="cursive"
+            android:text="@string/textView10"
+
+            android:textAlignment="viewStart"
+            android:textColor="@color/colorPrimary"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView16"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="cursive"
+            android:text="30%"
+            android:textAlignment="center"
+            android:textColor="@android:color/background_light"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/textView11"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="cursive"
+            android:text="@string/textView11"
+
+            android:textAlignment="viewStart"
+            android:textColor="@color/colorPrimary"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView17"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="cursive"
+            android:text="30%"
+            android:textAlignment="center"
+            android:textColor="@android:color/background_light"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/textView1255"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="cursive"
+            android:text="@string/textView1255"
+            android:textAlignment="viewStart"
+            android:textColor="@color/colorPrimary"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView18"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="cursive"
+            android:text="40%"
+            android:textAlignment="center"
+            android:textColor="@android:color/background_light"
+            android:textSize="14sp" />
+
+
+        <EditText
+            android:id="@+id/Materia1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:ems="10"
+            android:fontFamily="cursive"
+            android:inputType="textPersonName"
+            android:text="@string/Materia1"
+            android:textAlignment="center"
+            android:textColor="@color/colorAccent"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/textView19"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="cursive"
+            android:text="@string/textView10"
+            android:textAlignment="center"
+            android:textColor="@android:color/background_light"
+            android:textSize="14sp" />
+
+        <EditText
+            android:id="@+id/nota1A"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="0"
+            android:textAlignment="center"
+            android:textColor="@android:color/background_light"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/textView1922"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="cursive"
+            android:text="@string/textView11"
+            android:textAlignment="center"
+            android:textColor="@android:color/background_light"
+            android:textSize="14sp" />
+
+        <EditText
+            android:id="@+id/nota2B"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="0"
+            android:textAlignment="center"
+            android:textColor="@android:color/background_light"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/textView191"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="cursive"
+            android:text="@string/textView1255"
+            android:textAlignment="center"
+            android:textColor="@android:color/background_light"
+            android:textSize="14sp" />
+
+        <EditText
+            android:id="@+id/nota3C"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="0"
+            android:textAlignment="center"
+            android:textColor="@android:color/background_light"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/textView20"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="cursive"
+            android:text="@string/textView20"
+            android:textAlignment="center"
+            android:textColor="@android:color/background_light"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/R1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:textColor="@color/colorPrimary"
+            android:textSize="24sp" />
+
+
+        <EditText
+            android:id="@+id/Materia2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:ems="10"
+            android:fontFamily="cursive"
+            android:inputType="textPersonName"
+            android:text="@string/Materia2"
+            android:textAlignment="center"
+            android:textColor="@color/colorAccent"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/textView1955"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="cursive"
+            android:text="@string/textView10"
+            android:textAlignment="center"
+            android:textColor="@android:color/background_light"
+            android:textSize="14sp" />
+
+        <EditText
+            android:id="@+id/nota1AA"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="0"
+            android:textAlignment="center"
+            android:textColor="@android:color/background_light"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/textView192255"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="cursive"
+            android:text="@string/textView11"
+            android:textAlignment="center"
+            android:textColor="@android:color/background_light"
+            android:textSize="14sp" />
+
+        <EditText
+            android:id="@+id/nota2BB"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="0"
+            android:textAlignment="center"
+            android:textColor="@android:color/background_light"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/textView19155"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="cursive"
+            android:text="@string/textView1255"
+            android:textAlignment="center"
+            android:textColor="@android:color/background_light"
+            android:textSize="14sp" />
+
+        <EditText
+            android:id="@+id/nota3CC"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="0"
+            android:textAlignment="center"
+            android:textColor="@android:color/background_light"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/textView255"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="cursive"
+            android:text="@string/textView20"
+            android:textAlignment="center"
+            android:textColor="@android:color/background_light"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/R2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:textColor="@color/colorPrimary"
+            android:textSize="24sp" />
+
+        <EditText
+            android:id="@+id/Materia3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:ems="10"
+            android:fontFamily="cursive"
+            android:inputType="textPersonName"
+            android:text="@string/Materia3"
+            android:textAlignment="center"
+            android:textColor="@color/colorAccent"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/textView199"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="cursive"
+            android:text="@string/textView10"
+            android:textAlignment="center"
+            android:textColor="@android:color/background_light"
+            android:textSize="14sp" />
+
+        <EditText
+            android:id="@+id/nota1AAA"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="0"
+            android:textAlignment="center"
+            android:textColor="@android:color/background_light"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/textView192"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="cursive"
+            android:text="@string/textView11"
+            android:textAlignment="center"
+            android:textColor="@android:color/background_light"
+            android:textSize="14sp" />
+
+        <EditText
+            android:id="@+id/nota2BBB"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="0"
+            android:textAlignment="center"
+            android:textColor="@android:color/background_light"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="cursive"
+            android:text="@string/textView1255"
+            android:textAlignment="center"
+            android:textColor="@android:color/background_light"
+            android:textSize="14sp" />
+
+        <EditText
+            android:id="@+id/nota3CCC"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="0"
+            android:textAlignment="center"
+            android:textColor="@android:color/background_light"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/textView21"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="cursive"
+            android:text="@string/textView20"
+            android:textAlignment="center"
+            android:textColor="@android:color/background_light"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/R3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:textColor="@color/colorPrimary"
+            android:textSize="24sp" />
+
+
+        <EditText
+            android:id="@+id/Materia4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:ems="10"
+            android:fontFamily="cursive"
+            android:inputType="textPersonName"
+            android:text="@string/Materia4"
+            android:textAlignment="center"
+            android:textColor="@color/colorAccent"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/textView1998"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="cursive"
+            android:text="@string/textView10"
+            android:textAlignment="center"
+            android:textColor="@android:color/background_light"
+            android:textSize="14sp" />
+
+        <EditText
+            android:id="@+id/nota1A1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="0"
+            android:textAlignment="center"
+            android:textColor="@android:color/background_light"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/textView198"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="cursive"
+            android:text="@string/textView11"
+            android:textAlignment="center"
+            android:textColor="@android:color/background_light"
+            android:textSize="14sp" />
+
+        <EditText
+            android:id="@+id/nota2B1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="0"
+            android:textAlignment="center"
+            android:textColor="@android:color/background_light"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/textView12"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="cursive"
+            android:text="@string/textView1255"
+            android:textAlignment="center"
+            android:textColor="@android:color/background_light"
+            android:textSize="14sp" />
+
+        <EditText
+            android:id="@+id/nota3C1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="0"
+            android:textAlignment="center"
+            android:textColor="@android:color/background_light"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/textVie85"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="cursive"
+            android:text="@string/textView20"
+            android:textAlignment="center"
+            android:textColor="@android:color/background_light"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/R4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:textColor="@color/colorPrimary"
+            android:textSize="24sp" />
+
+        <EditText
+            android:id="@+id/Materia5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:ems="10"
+            android:fontFamily="cursive"
+            android:inputType="textPersonName"
+            android:text="@string/Materia5"
+            android:textAlignment="center"
+            android:textColor="@color/colorAccent"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/textView195"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="cursive"
+            android:text="@string/textView10"
+            android:textAlignment="center"
+            android:textColor="@android:color/background_light"
+            android:textSize="14sp" />
+
+        <EditText
+            android:id="@+id/n1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="0"
+            android:textAlignment="center"
+            android:textColor="@android:color/background_light"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/textView19225"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="cursive"
+            android:text="@string/textView11"
+            android:textAlignment="center"
+            android:textColor="@android:color/background_light"
+            android:textSize="14sp" />
+
+        <EditText
+            android:id="@+id/n2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="0"
+            android:textAlignment="center"
+            android:textColor="@android:color/background_light"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/textView1915"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="cursive"
+            android:text="@string/textView1255"
+            android:textAlignment="center"
+            android:textColor="@android:color/background_light"
+            android:textSize="14sp" />
+
+        <EditText
+            android:id="@+id/n3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="0"
+            android:textAlignment="center"
+            android:textColor="@android:color/background_light"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/textView288"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="cursive"
+            android:text="@string/textView20"
+            android:textAlignment="center"
+            android:textColor="@android:color/background_light"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/R5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:textColor="@color/colorPrimary"
+            android:textSize="24sp" />
+
+        <EditText
+            android:id="@+id/Materia6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:ems="10"
+            android:fontFamily="cursive"
+            android:inputType="textPersonName"
+            android:text="@string/Materia6"
+            android:textAlignment="center"
+            android:textColor="@color/colorAccent"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/textView194546546"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="cursive"
+            android:text="@string/textView10"
+            android:textAlignment="center"
+            android:textColor="@android:color/background_light"
+            android:textSize="14sp" />
+
+        <EditText
+            android:id="@+id/n1A"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="0"
+            android:textAlignment="center"
+            android:textColor="@android:color/background_light"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/textView1922888888888"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="cursive"
+            android:text="@string/textView11"
+            android:textAlignment="center"
+            android:textColor="@android:color/background_light"
+            android:textSize="14sp" />
+
+        <EditText
+            android:id="@+id/n2B"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="0"
+            android:textAlignment="center"
+            android:textColor="@android:color/background_light"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/textView1919999"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="cursive"
+            android:text="@string/textView1255"
+            android:textAlignment="center"
+            android:textColor="@android:color/background_light"
+            android:textSize="14sp" />
+
+        <EditText
+            android:id="@+id/n3C"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="0"
+            android:textAlignment="center"
+            android:textColor="@android:color/background_light"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/textView208889997979"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="cursive"
+            android:text="@string/textView20"
+            android:textAlignment="center"
+            android:textColor="@android:color/background_light"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/R6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:textColor="@color/colorPrimary"
+            android:textSize="24sp" />
+
+        <EditText
+            android:id="@+id/Materia7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:ems="10"
+            android:fontFamily="cursive"
+            android:inputType="textPersonName"
+            android:text="@string/Materia7"
+            android:textAlignment="center"
+            android:textColor="@color/colorAccent"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/t"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="cursive"
+            android:text="@string/textView10"
+            android:textAlignment="center"
+            android:textColor="@android:color/background_light"
+            android:textSize="14sp" />
+
+        <EditText
+            android:id="@+id/nA"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="0"
+            android:textAlignment="center"
+            android:textColor="@android:color/background_light"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/tex5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="cursive"
+            android:text="@string/textView11"
+            android:textAlignment="center"
+            android:textColor="@android:color/background_light"
+            android:textSize="14sp" />
+
+        <EditText
+            android:id="@+id/nB"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="0"
+            android:textAlignment="center"
+            android:textColor="@android:color/background_light"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/teA"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="cursive"
+            android:text="@string/textView1255"
+            android:textAlignment="center"
+            android:textColor="@android:color/background_light"
+            android:textSize="14sp" />
+
+        <EditText
+            android:id="@+id/nC"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="0"
+            android:textAlignment="center"
+            android:textColor="@android:color/background_light"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/textV"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="cursive"
+            android:text="@string/textView20"
+            android:textAlignment="center"
+            android:textColor="@android:color/background_light"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/R7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:textColor="@color/colorPrimary"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/btnPromedioTotal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@android:color/background_dark"
+            android:fontFamily="cursive"
+            android:onClick="calcularpromedio"
+            android:text="@string/btnPromedioTotal"
+            android:textColor="@android:color/holo_green_dark"
+            android:textSize="24sp"
+            android:textStyle="bold|italic" />
+
+        <TextView
+            android:id="@+id/tvpromedio"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="cursive"
+            android:textAlignment="center"
+            android:textColor="@color/colorPrimary"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@android:color/background_dark"
+            android:fontFamily="cursive"
+            android:onClick="recuperar"
+            android:text="@string/button2"
+            android:textColor="@color/colorAccent"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@android:color/background_dark"
+            android:fontFamily="cursive"
+            android:onClick="informacion"
+            android:text="@string/button"
+            android:textColor="@color/colorPrimary"
+            android:textSize="24sp"
+            android:textStyle="bold|italic" />
+
+
+    </LinearLayout>
+    </ScrollView>
+
+
+</RelativeLayout>

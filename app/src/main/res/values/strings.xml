@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">My ApplicationCaculadoraNotas</string>
+    <string name="textView2">Calculadora de Promedio (7 MATERIAS)</string>
+    <string name="button6">Comenzar</string>
+    <string name="button4">Acerca De</string>
+    <string name="textView8">Calcula Tu Promedio</string>
+    <string name="textView10">Nota 1</string>
+    <string name="textView11">Nota 2</string>
+    <string name="textView1255">"Nota 3 "</string>
+    <string name="textView20">Resultado</string>
+    <string name="btnPromedioTotal">Promedio Total</string>
+    <string name="button2">Guardar Notas</string>
+    <string name="button">Informate</string>
+    <string name="Materia1">Nombre Materia 1</string>
+    <string name="Materia2">Nombre Materia 2</string>
+    <string name="Materia3">Nombre Materia 2</string>
+    <string name="Materia4">Nombre Materia 4</string>
+    <string name="Materia5">Nombre Materia 5</string>
+    <string name="Materia6">Nombre Materia 6</string>
+    <string name="Materia7">Nombre Materia 7</string>
+    <string name="textView4">Tu Rendimiento es Valorado como</string>
+    <string name="textView6">Si tu Nota es</string>
+    <string name="textView7">Menor a 1 = Rendimiento Deficiente</string>
+    <string name="textView9">Mayo a  1 y Menor a 2 = Rendimiento Insuficiente</string>
+    <string name="textView13">Mayor a 2 y Menor a 3 = Rendimiento Bajo</string>
+    <string name="textView14">Mayor a 3 y Menor a 3.5 = Rendimiento Bueno</string>
+    <string name="textView15">Mayor a 3.5 y Menor a 4.5 = Rendimiento Muy Bueno</string>
+    <string name="textView22">Mayor a 4.5 y Menor a 5.0 = Rendimiento Excelente</string>
+    <string name="M">"Lo importante no es lo que uno sabe, sino que tan rápido aprende "</string>
+</resources>
